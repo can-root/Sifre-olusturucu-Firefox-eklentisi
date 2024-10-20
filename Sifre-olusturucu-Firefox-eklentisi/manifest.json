@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Rastgele Şifre Üretici",
+  "version": "1.0",
+  "description": "Şifre oluşturucu",
+  "permissions": ["storage"],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "background": {
+    "scripts": ["script.js"],
+    "persistent": false
+  },
+  "options_ui": {
+    "page": "popup.html",
+    "open_in_tab": true
+  }
+}
